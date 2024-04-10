@@ -1,0 +1,20 @@
+---
+- summary: |
+    Проверка добавления товара в корзину
+  status: pass
+
+- summary: |
+    Проверка сохранения данных в браузере
+  status: pass
+  
+- summary: |
+    Проверка фильтрации списка товаров
+  status: pass
+  
+- summary: |
+    Проверка строки поиска
+  status: pass
+
+- summary: |
+    Оформление заказа
+  status: pass
