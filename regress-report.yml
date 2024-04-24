@@ -5,6 +5,10 @@ test-cases:
    status: pass
 
   - summary: |
+      Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
+   status: fail
+    
+  - summary: |
       Проверка сохранения данных в браузере
    status: pass
   
@@ -20,7 +24,7 @@ test-cases:
       Оформление заказа
    status: pass
 
-    - summary: |
+  - summary: |
       Проверка работы в браузере Chrome
    status: pass
   
