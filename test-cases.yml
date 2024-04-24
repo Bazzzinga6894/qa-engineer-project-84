@@ -58,7 +58,7 @@
     - Вводим "Iphone X"
  expected-result: |
     Список товаров должен отфильтроваться, оставив только Iphone X
-    
+
 - summary: |
     Оформление заказа
  requirement: |
