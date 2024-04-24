@@ -1,87 +1,87 @@
 ---
 - summary: |
     Проверка добавления товара в корзину
- requirement: |
+  requirement: |
      При нажатии на кнопку "В корзину" соответствующий товар должен добавляться в корзину в количестве 1 шт
- prerequisites: | 
+  prerequisites: | 
      Открыта страница магазина
      Корзина пуста
- test-data: |
+  test-data: |
      -
- steps:
+  steps:
     - Нажимаем на кнопку "В корзину" на товаре
     - Нажимаем на кнопку "Корзина"
- expected-result: |
+  expected-result: |
      1 штука товара добавлена в корзину, на значке корзины появился счётчик товаров
 
 - summary: |
     Проверка сохранения данных в браузере
- requirement: |
+  requirement: |
      При перезагрузке страницы данные в корзине должны сохраняться
- prerequisites: | 
+  prerequisites: | 
      Открыта страница магазина
      Товар добавлен в корзину
- test-data: |
+  test-data: |
      -
- steps:
+  steps:
     - Обновляем страницу
- expected-result: |
+  expected-result: |
      Товар в корзине должен остаться
 
 - summary: |
     Проверка фильтрации списка товаров
- requirement: |
+  requirement: |
     При выборе соответсвующего фильтра, список товаров должен изменяться в соответсвии с ним
- prerequisites: | 
+  prerequisites: | 
      Открыта страница магазина
      Не выбрано ни одного фильтра
- test-data: |
+  test-data: |
     -
- steps:
+  steps:
     - Нажимаем на кнопку "Категория"
     - Выбираем фильтр, например "laptops"
- expected-result: |
+  expected-result: |
      В списке товаров должны остаться только ноутбуки
 
 - summary: |
     Проверка строки поиска
- requirement: |
+  requirement: |
     При вводе в строку поиска названия (или части названия) товара, список товаров должен фильтроваться в соответствии с поиском
- prerequisites: | 
+  prerequisites: | 
      Открыта страница магазина
      Не выбрано ни одного фильтра
      Строка поиска пустая
- test-data: |
+  test-data: |
     -  Название товара "Iphone X"
- steps:
+  steps:
     - Нажимаем на строку поиска
     - Вводим "Iphone X"
- expected-result: |
+  expected-result: |
     Список товаров должен отфильтроваться, оставив только Iphone X
 
 - summary: |
     Оформление заказа
- requirement: |
+  requirement: |
     При нажатии кнопки "Оформить заказ" должен форммироваться заказ из товаров, помещенных в корзину
- prerequisites: | 
+  prerequisites: | 
      - Открыта страница корзины
      - Товары добавлены в корзину
- test-data: |
+  test-data: |
     -
- steps:
+  steps:
     - Нажимаем на кнопку "Оформить заказ"
- expected-result: |
+  expected-result: |
      Должно появиться окно "Заказ оформлен" с количеством, наименованиями и стоимостью товаров из корзины
 
 - summary: |
     Проверка работы в браузере Chrome
- requirement: |
+  requirement: |
     Страница открывается в браузере
- prerequisites: | 
+  prerequisites: | 
      - 
- test-data: |
+  test-data: |
     - Браузер Chrome,  версия 124.0.6367.62, (64 бит)
- steps:
+  steps:
     - Открываем страницу https://hexlet-products-store.vercel.app/
- expected-result: |
+  expected-result: |
      Страница должна отобразиться в окне браузера
