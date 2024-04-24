@@ -6,11 +6,11 @@
 - summary: |
     Проверка сохранения данных в браузере
   status: pass
-  
+
 - summary: |
     Проверка фильтрации списка товаров
   status: pass
-  
+
 - summary: |
     Проверка строки поиска
   status: pass
@@ -21,4 +21,4 @@
 
 - summary: |
     Проверка работы в браузере Chrome
-    status: pass
+  status: pass
