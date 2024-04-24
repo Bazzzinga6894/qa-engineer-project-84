@@ -2,26 +2,26 @@
 test-cases:
   - summary: |
       Проверка добавления товара в корзину
-   status: pass
+    status: pass
 
   - summary: |
       Проверка сохранения данных в браузере
-   status: pass
+    status: pass
   
   - summary: |
       Проверка фильтрации списка товаров
-   status: pass
+    status: pass
   
   - summary: |
       Проверка строки поиска
-   status: pass
+    status: pass
 
   - summary: |
       Оформление заказа
-   status: pass
+    status: pass
 
   - summary: |
       Проверка работы в браузере Chrome
-   status: pass
+    status: pass
   
 bugreports: []
