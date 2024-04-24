@@ -3,7 +3,7 @@ test-cases:
   - summary: |
       Проверка добавления товара в корзину
    status: pass
-    
+
   - summary: |
       Проверка сохранения данных в браузере
    status: pass
