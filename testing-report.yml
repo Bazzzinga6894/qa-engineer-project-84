@@ -18,3 +18,7 @@
 - summary: |
     Оформление заказа
   status: pass
+
+- summary: |
+    Проверка работы в браузере Chrome
+    status: pass
