@@ -2,7 +2,7 @@
 test-cases:
   - summary: |
       Проверка добавления товара в корзину
-  status: pass
+    status: pass
 
   - summary: |
       Хранение корзины в сессии браузера
