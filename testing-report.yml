@@ -17,7 +17,7 @@
 
 - summary: |
     Оформление заказа
-  status: pass
+  status: fail
 
 - summary: |
     Проверка работы в браузере Chrome
@@ -41,7 +41,7 @@
 
 - summary: |
     Проверка фильтра товаров по цене
-  status: pass
+  status: fail
 
 - summary: |
     Проверка фильтра по бренду
@@ -65,7 +65,7 @@
 
 - summary: |
     Проверка навигации по страницам каталога
-  status: pass
+  status: fail
 
 - summary: |
     Проверка страницы просмотра информации о товаре
