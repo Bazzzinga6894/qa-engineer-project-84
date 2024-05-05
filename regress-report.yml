@@ -91,5 +91,8 @@ test-cases:
   - summary: |
       Проверка хранения выбранного языка в кэше
     status: fail
-    
+
+  - summary: |
+    Тестирование первоначальной загрузки
+  status: pass
 bugreports: []
