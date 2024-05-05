@@ -348,3 +348,17 @@
     - Обновляем страницу
   expected-result: |
     Язык страницы остался русским
+
+- summary: |
+    Тестирование первоначальной загрузки
+  requirement: |
+    Загрузка всех блоков и отсутствие ошибок в загрузке
+  prerequisites: |
+    - 
+  test-data: |
+    - 
+  steps:
+    - Открываем Devtools, вкладка Network
+    - Открываем страницу https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Отсутствие ошибок в загрузке (статус failed)
