@@ -94,5 +94,9 @@ test-cases:
 
   - summary: |
     Тестирование первоначальной загрузки
-  status: pass
+    status: pass
+
+  - summary: |
+    Проверка отображения на мобильном устройстве
+    status: pass
 bugreports: []
